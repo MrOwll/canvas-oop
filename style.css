@@ -6,35 +6,3 @@ body {
     border: 1px solid black;
 }
 
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
-.figure-list {
-    display: grid;
-    grid-template-columns: 100px 100px 100px;
-    grid-template-rows: 30px 30px 30px;
-    gap: 8px;
-    margin: 30px 8px;
-    position: relative;
-}
-
-.figure-list > .figure {
-    width: 100px;
-    height: 30px;
-    background-color: blueviolet;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-}
-
-.drag{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    border: 2px solid black;
-    margin-top: 100px;
-    margin-left: 30px;
-}
